@@ -10,3 +10,7 @@ platforms:
 
 env_specs:
   python_38: {}
+
+commands:
+  default:
+    unix: python -m http.server 8086
